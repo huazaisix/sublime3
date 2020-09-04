@@ -1,0 +1,8 @@
+{
+    "disable_keymap_actions": "all", // "all"; "html,css"
+    "date_format" : "%Y-%m-%d %H:%M:%S",
+    "attr": {
+        "author": "wo",
+        "email": "passion_wo@163.com"
+    }
+}

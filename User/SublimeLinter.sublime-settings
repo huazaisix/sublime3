@@ -1,0 +1,41 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+		"pep8": {
+		    "@disable": false,
+		    "args": [],
+		    "excludes": [],
+		    "ignore": "E501",
+		    "max-line-length": 200,
+		    "select": ""
+		},
+		"flake8": {
+		    "@disable": false,
+            "args": ["--max-line-length", "200"],
+		    "builtins": "",
+		    "excludes": [],
+		    "executable": "",
+		    "ignore": "E501",
+		    "jobs": "1",
+		    "max-complexity": -1,
+		    "max-line-length": 200,
+		    "select": "",
+		    "show-code": false
+		},
+	},
+	"styles": [
+        {
+            "scope": "region.yellowish markup.warning.sublime_linter",
+            "types": ["warning"]
+        },
+        {
+            "priority": 1,
+            "icon": "triangle",
+            "mark_style": "solid_underline",
+
+            "scope": "region.redish markup.error.sublime_linter"
+        }
+    ],
+
+}
+

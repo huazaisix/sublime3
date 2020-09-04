@@ -1,0 +1,7 @@
+[
+	{"keys": ["super+shift+b"], "command": "toggle_side_bar"},
+    {
+        "caption": "Tmpl: Create python", "command": "sublime_tmpl",
+        "keys": ["ctrl+alt+p"], "args": {"type": "python"}
+    }
+]
